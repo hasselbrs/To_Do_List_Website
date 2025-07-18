@@ -1,0 +1,10 @@
+Flask==2.3.2
+requests~=2.31.0
+Bootstrap_Flask==2.2.0
+flask_sqlalchemy==3.0.5
+WTForms==3.0.1
+Flask_WTF==1.2.1
+Werkzeug=3.0.0
+Flask_Login==0.6.2
+SQLAlchemy==2.0.19
+Werkzeug==2.3.3
