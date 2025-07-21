@@ -9,7 +9,7 @@ import requests
 import os
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "medieval app game"
+app.config['SECRET_KEY'] = os.environ.get('secret_key')
 
 # Connect to Database
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", 'sqlite:///lists.db')
